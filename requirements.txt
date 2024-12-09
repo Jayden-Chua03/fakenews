@@ -1,3 +1,9 @@
 streamlit
 pyperclip
 nltk
+pandas 
+langdetect 
+altair 
+requests 
+beautifulsoup4 
+pyperclip
