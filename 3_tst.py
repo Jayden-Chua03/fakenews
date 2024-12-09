@@ -15,10 +15,10 @@ from urllib.parse import urlparse
 # Load models and vectorizer
 with open('lrs.pkl', 'rb') as file:
     logistic_regression_stem = pickle.load(file)
-with open('D:/FYP (VS Code)/Trained_Model/rfs.pkl', 'rb') as file:
-    random_forest_stem = pickle.load(file)
-with open('D:/FYP (VS Code)/Trained_Model/dts.pkl', 'rb') as file:
-    decision_tree_stem = pickle.load(file)
+# with open('D:/FYP (VS Code)/Trained_Model/rfs.pkl', 'rb') as file:
+#     random_forest_stem = pickle.load(file)
+# with open('D:/FYP (VS Code)/Trained_Model/dts.pkl', 'rb') as file:
+#     decision_tree_stem = pickle.load(file)
 with open('tfidf_vectorizer_stem.pkl', 'rb') as vec_file:
     vectorization_stem = pickle.load(vec_file)
 
