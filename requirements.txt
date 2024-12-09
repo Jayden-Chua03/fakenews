@@ -7,3 +7,4 @@ altair
 requests 
 beautifulsoup4 
 pyperclip
+sklearn
